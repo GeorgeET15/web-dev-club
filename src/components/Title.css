@@ -1,0 +1,66 @@
+.title-container {
+  background-color: #14003e;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modern-animation {
+  max-width: 100%;
+  height: auto;
+  animation: animate 2s infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-content {
+  text-align: center;
+  color: #5c2289;
+  margin-top: 3rem;
+}
+
+.welcome-text {
+  font-size: 2rem;
+}
+
+.club-name {
+  font-size: 3rem;
+  font-weight: 900;
+  color: aquamarine;
+}
+
+.club-description {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.blink-text {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Add any additional styling here */
