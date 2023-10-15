@@ -6,12 +6,12 @@ const Footer = () => {
     <footer style={styles.footer}>
       <div style={styles.footerContent}>
         <a
-          href="https://instagram.com/cse.beta_26?igshid=MzRlODBiNWFlZA=="
+          href="https://github.com/GeorgeET15/web-dev-club"
           target="_blank"
           rel="noopener noreferrer"
-          style={styles.instagramLink}
+          style={styles.githubLink}
         >
-          <GitHubIcon style={styles.instagramIcon} />
+          <GitHubIcon style={styles.githubIcon} />
         </a>
         <p style={styles.copyrightText}>
           © {new Date().getFullYear()} WEB DEV CLUB. All rights reserved.
@@ -37,13 +37,13 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
   },
-  instagramLink: {
+  githubLink: {
     display: "inline-block",
     margin: "0 10px",
     color: "#000",
     textDecoration: "none",
   },
-  instagramIcon: {
+  githubIcon: {
     fontSize: "30px",
   },
   copyrightText: {
